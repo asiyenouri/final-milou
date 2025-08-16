@@ -19,10 +19,4 @@ CREATE TABLE emails (
     is_reply BOOLEAN DEFAULT FALSE,
     is_forward BOOLEAN DEFAULT FALSE
 );
-insert into users (name, email, password) values
-    ('Gholi', 'gholi@milou.com', 'password123'),
-('Mamad', 'mamad@milou.com', 'password456'),
-('Raees', 'raees@milou.com', 'password789');
-select * from emails;
-select * from users;
-select * from users;
+
